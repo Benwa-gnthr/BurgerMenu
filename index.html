@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai&family=Gabarito&family=Nunito&family=Pridi:wght@300&family=Roboto&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <title>Formulaire_Distanciel</title>
+</head>
+<body>
+    <nav>
+        <!-- <h1>UNE NOUVELLE PAGE</h1> -->
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Location</a>
+        <a href="#">A propos</a>
+        <a href="#">Contact</a>
+
+    </nav>        
+    <button type="button" aria-label="toggle curtain navigation" class="nav-toggler">
+            <span class="line l1"></span>
+            <span class="line l2"></span>
+            <span class="line l3"></span>
+        </button>
+    <form action="contact" onsubmit="return validerFormulaire()">
+                <h1>CONTACT</h1>
+            <div class="container">
+                <div class="input_container">
+
+                    <input type="text" id="Nom" placeholder="Nom">
+
+                    <input type="text" id="Prenom" placeholder="Prenom">
+        
+                    <input type="email" id="Email" placeholder="Votre E-Mail"> 
+
+                </div>
+
+                <textarea name="" id="" placeholder="Un message ?" cols="30" rows="8"></textarea>
+            </div>
+            <input type="submit" class="btn">            
+
+    </form>
+<script src="./script.js"></script>
+</body>
+</html>
